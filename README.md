@@ -2,8 +2,15 @@
 
 **Soy zamueI** - Estudiante de Computación Creativa.
 
-Artista
+Artista, creativo y dibujante.
+Me gusta el arte y la edición de videos.
 
+
+
+## Mis metas de aprendizaje:
+- Código creativo
+- Animación
+- Modelado 3D
 
 ## Redes ->
 
