@@ -1,17 +1,36 @@
 body {
-    background-color: #322134;
-    color: rgb(149, 246, 246);
+    background-color: #27352f;
+    color: #D9C3A0;
     font-family: "joc", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "joc", sans-serif;
-font-weight: 900;
-font-style: normal;
+
 }
 
+header {
+    font-size: 16px;
+}
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+}
 p {
+    font-size: 1.2rem;
     font-family: "attribute-text", sans-serif;
-font-weight: 400;
-font-style: normal;
+
+line-height: 1em;
+}
+
+a{
+    color: inherit;
+}
+
+ul{
+    font-family: "attribute-text", sans-serif;
+    font-weight: 700;
 }
