@@ -2,14 +2,33 @@
    --font-family: "attribute-text", sans-serif;
    --font-title: "joc", sans-serif;
    --text-color: #D9C3A0;
-   --background-color: #27352f;
+   --background-color: #ffffff;
    --accent-color:#A8925A;
    --button-color: rgb(107, 101, 88);
 }
 html {
-    font-size: 10px;
+    font-size: 100%;
 }
+
+@media (min-width: 768px) {
+    html {font-size: 110%;}
+}   
+@media (min-width: 1024px) {
+    html {font-size: 120%;}
+}
+
+.background-image {
+width: 100%;
+height: auto;
+object-fit: cover;
+}
+
 body {
+    .background-image {
+width: 100%;
+height: auto;
+object-fit: cover;
+}
     background-color: var(--background-color);
     color: var(--text-color);
     font-family: var(--font-family);
@@ -18,7 +37,7 @@ body {
 main{
         width: 100%;
         max-width: 800px;
-        margin: 0 auto;
+        margin: 1 auto;
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--font-title);
@@ -53,7 +72,7 @@ a{
     background-color: var(--button-color);
     color: var(--background-color);
     width: 100px;
-    color: var(--accent-color)
+    color: var(--accent-color);
     transition: all .5s ease-in-out;
 }
 
